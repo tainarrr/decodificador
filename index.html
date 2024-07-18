@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Decodificador de Texto</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__conteudo">
+      <img class="cabecalho__icone" src="/assets/seguro.png" alt="">
+    </div>
+  </header>
+  <main class="container__main">
+    <section class="container__input">
+      <textarea name="" id="texto__input" placeholder="Digite seu Texto"></textarea>
+      <p><img src="/assets/exclamation_blue.png" alt=""> Apenas letras minúsculas e sem acento.</p>
+      <div class="buttons">
+        <div class="container__buttons">
+          <button onclick="criptografar" class="criptografar">Criptografar</button>
+          <button onclick="descriptografar()" class="descriptografar">Descriptografar</button>
+        </div>
+      </div>
+    </section>
+    <div class="container__output">
+      <img class="imagem" src="/assets/seguranca.png" alt="Uma ilustração de uma mulher segurando elementos de proteção de informações.">
+      <h2>Nenhuma mensagem encontrada</h2>
+      <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+    </div>
+  </main>
+  <footer class="rodape">
+    <div class="rodape_container">
+      <div class="desenvolvido">
+        <p>Desenvolvido por Tainá Almeida | Copyright @ 2024</p>
+      </div>
+      <div class="icons">
+        <a href=""><ion-icon name="logo-github"></ion-icon></a>
+        <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
