@@ -4,7 +4,8 @@ O projeto desenvolvido para o desafio de código da One Next Education em parcer
 
 ![resultado](https://github.com/user-attachments/assets/487c9b80-c3f6-4983-913b-9e92dd505665)
 
-#✔️ Técnicas e tecnologias utilizadas
-Html
-CSS
-Javascript
+## ✔️ Técnicas e tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
